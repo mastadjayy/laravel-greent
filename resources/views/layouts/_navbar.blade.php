@@ -8,8 +8,8 @@ class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px
     class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
   >
     <a
-      class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
-      href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
+      class="text-lg font-bold text-emerald-800 leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
+      href="{{ route('home') }}"
       >Green Technology</a>
      <button
       class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -27,26 +27,26 @@ class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px
       <li class="flex items-center">
         <a
           class="text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-          href="#pablo"
+          href="{{ route('about') }}"
         >
-          A Propos
+          à propos
         </a>
       </li>
       <li class="flex items-center">
         <a
           class="text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-          href="#pablo"
+          href="#"
         >
-          Nos Produits
+          nos produits
         </a>
       </li>
       <li class="flex items-center">
         <button
-          class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+          class="bg-green-900 text-white active:bg-green-900 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
           type="button"
           style="transition: all 0.15s ease 0s;"
         >
-          Contact
+          contact
         </button>
       </li>
     </ul>
