@@ -197,7 +197,7 @@
 
     <section class="pt-20 pb-48 bg-emerald-800">
       <div class="container mx-auto px-4">
-        <div class="flex flex-wrap justify-center text-center mb-24">
+        <div class="flex flex-wrap justify-center text-center mb-10">
           <div class="w-full lg:w-6/12 px-4">
             <h6 class="text-lg mb-2 font-semibold uppercase text-slate-100">Nos principaux produits</h6>
             <p class="font-light text-lg leading-relaxed m-4 text-slate-300">
@@ -206,6 +206,27 @@
             </p>
           </div>
         </div>
+        <section class="text-gray-600 body-font">
+          <div class="container px-5 mx-auto">
+            <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+              <div class="sm:w-6/12 mb-10 px-4">
+                <div class="rounded-lg h-64 overflow-hidden">
+                  <img alt="content" class="object-cover object-center h-full w-full" src="https://shtheme.org/demosd/agroly/wp-content/uploads/2020/12/gallery-3.jpg">
+                </div>
+                <h6 class="title-font text-xl font-medium text-slate-300 mt-6 mb-3 uppercase"><a href="#">Substrat-GT</a></h6>
+                <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+              </div>
+              <div class="sm:w-6/12 mb-10 px-4">
+                <div class="rounded-lg h-64 overflow-hidden">
+                  <img alt="content" class="object-cover object-center h-full w-full" src="https://shtheme.org/demosd/agroly/wp-content/uploads/2020/12/gallery-3.jpg">
+                </div>
+                <h6 class="title-font text-xl font-medium text-slate-300 mt-6 mb-3 uppercase"><a href="#">Cocochips-GT</a></h6>
+                <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--
         <div class="flex flex-wrap">
           <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
@@ -272,6 +293,7 @@
             </div>
           </div>
         </div>
+        -->
       </div>
     </section>
 
