@@ -17,24 +17,21 @@
       </div>
       <div class="container relative mx-auto">
         <div class="items-center flex flex-wrap">
-          <div class="w-full lg:w-6/12">
+          <div class="w-full lg:w-8/12">
             <div>
-              <h1 class="text-white font-semibold text-7xl capitalize"
+                <p class="mt-4 text-lg font-medium text-white text-base uppercase underline underline-offset-8">
+                    Nous fabriquons
+                </p>
+              <h1 class="text-white font-semibold text-7xl capitalize mt-5 mb-8"
                   data-aos="fade-down"
                   data-aos-delay="50"
                   data-aos-duration="1200"
                   data-aos-mirror="true"
                   data-aos-once="false"
               >
-                Une agriculture bio pour un meilleur environnement<span class="text-green-900">.</span>
+                Des Produits Agricoles <span class="text-amber-300">&</span> <br> Bio
               </h1>
-              <!--
-              <p class="mt-4 text-lg text-gray-300">
-                This is a simple example of a Landing Page you can build using
-                Tailwind Starter Kit. It features multiple CSS components
-                based on the Tailwindcss design system.
-              </p>
-              -->
+              
               <a
                 href="#"
                 class="bg-green-800 hover:bg-transparent text-white font-semibold p-4 border-2 border-transparent hover:border-green-800 rounded inline-block mt-5 cursor-pointer"
@@ -51,6 +48,7 @@
           </div>
         </div>
       </div>
+    <!--
       <div
         class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
         style="height: 70px;"
@@ -70,11 +68,12 @@
           ></polygon>
         </svg>
       </div>
+    -->
     </div>
     <section class="pb-20 bg-gradient-to-b from-amber-300 -mt-24">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
-          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+          <div class="lg:pt-12 pt-12 w-full md:w-6/12 px-4 text-center">
             <div
               class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
             >
@@ -84,14 +83,20 @@
                 >
                   <i class="fas fa-splotch"></i>
                 </div>
-                <h6 class="text-xl font-semibold">Awarded Agency</h6>
-                <p class="mt-2 mb-4 text-gray-600">
-                  Divide details about your product or agency work into parts.
-                  A paragraph describing a feature will be enough.
+                <h4 class="text-2xl font-bold capitalize">localement</h4>
+                <p class="mt-2 mb-4 text-gray-600 text-xl">
+                  Green Technology travail main à main avec les acteurs du secteur agricole.
                 </p>
+                <a
+                    href="#"
+                    class="px-6 bg-amber-400 hover:bg-transparent text-white hover:text-amber-400 font-semibold border-2 border-transparent hover:border-amber-400 rounded inline-block cursor-pointer"
+                >
+                    <i class="fas fa-long-arrow-alt-right text-lg leading-lg"></i>
+                </a>
               </div>
             </div>
           </div>
+          <!--
           <div class="w-full md:w-4/12 px-4 text-center">
             <div
               class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
@@ -110,7 +115,8 @@
               </div>
             </div>
           </div>
-          <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+          -->
+          <div class="pt-12 w-full md:w-6/12 px-4 text-center">
             <div
               class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
             >
@@ -120,14 +126,20 @@
                 >
                   <i class="fas fa-fingerprint"></i>
                 </div>
-                <h6 class="text-xl font-semibold">Verified Company</h6>
-                <p class="mt-2 mb-4 text-gray-600">
-                  Write a few lines about each one. A paragraph describing a
-                  feature will be enough. Keep you user engaged!
+                <h4 class="text-2xl font-bold capitalize">à l'étranger</h4>
+                <p class="mt-2 mb-4 text-gray-600 text-xl">
+                  Nos produits sont principalement exportés vers la France et la Hollande.
                 </p>
+                <a
+                    href="#"
+                    class="px-6 bg-amber-400 hover:bg-transparent text-white hover:text-amber-400 font-semibold border-2 border-transparent hover:border-amber-400 rounded inline-block cursor-pointer"
+                >
+                    <i class="fas fa-long-arrow-alt-right text-lg leading-lg"></i>
+                </a>
               </div>
             </div>
           </div>
+          
         </div>
         <div class="flex flex-wrap items-center mt-32">
           <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
