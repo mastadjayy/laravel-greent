@@ -211,7 +211,7 @@
             <div class="px-6">
               <img
                 alt="..."
-                src="./assets/img/team-1-800x800.jpg"
+                src="https://shtheme.org/demosd/agroly/wp-content/uploads/2020/12/gallery-3.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -227,7 +227,7 @@
             <div class="px-6">
               <img
                 alt="..."
-                src="./assets/img/team-2-800x800.jpg"
+                src="https://shtheme.org/demosd/agroly/wp-content/uploads/2020/12/gallery-3.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -243,7 +243,7 @@
             <div class="px-6">
               <img
                 alt="..."
-                src="./assets/img/team-3-800x800.jpg"
+                src="https://shtheme.org/demosd/agroly/wp-content/uploads/2020/12/gallery-3.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -259,7 +259,7 @@
             <div class="px-6">
               <img
                 alt="..."
-                src="./assets/img/team-4-470x470.png"
+                src="https://shtheme.org/demosd/agroly/wp-content/uploads/2020/12/gallery-3.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
