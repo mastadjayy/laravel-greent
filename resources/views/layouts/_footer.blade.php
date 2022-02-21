@@ -38,32 +38,33 @@ style='background-image: url("http://seodo.themezinho.net/wp-content/themes/seod
         <div class="w-full lg:w-4/12 px-4 ml-auto">
           <span
             class="block uppercase text-amber-100 text-sm font-semibold mb-2"
-            >Useful Links</span
+            >liens utiles</span
           >
           <ul class="list-unstyled">
             <li>
               <a
-                class="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                href="https://www.creative-tim.com/presentation"
-                >About Us</a
+                class="text-white hover:text-gray-900 font-semibold block pb-2 text-sm uppercase"
+                href="#"
+                >à propos</a
               >
             </li>
             <li>
               <a
-                class="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                href="https://blog.creative-tim.com"
-                >Blog</a
+                class="text-white hover:text-gray-900 font-semibold block pb-2 text-sm uppercase"
+                href="#"
+                >nos produits</a
               >
             </li>
             <li>
               <a
-                class="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                href="https://www.creative-tim.com/bootstrap-themes/free"
-                >Free Products</a
+                class="text-white hover:text-gray-900 font-semibold block pb-2 text-sm uppercase"
+                href="#"
+                >contact</a
               >
             </li>
           </ul>
         </div>
+        <!--
         <div class="w-full lg:w-4/12 px-4">
           <span
             class="block uppercase text-amber-100 text-sm font-semibold mb-2"
@@ -88,11 +89,12 @@ style='background-image: url("http://seodo.themezinho.net/wp-content/themes/seod
               <a
                 class="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
                 href="https://creative-tim.com/contact-us"
-                >Contact Us</a
+                >Contact</a
               >
             </li>
           </ul>
         </div>
+        -->
       </div>
     </div>
   </div>
