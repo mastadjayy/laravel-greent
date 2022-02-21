@@ -29,12 +29,12 @@
                   data-aos-mirror="true"
                   data-aos-once="false"
               >
-                Des Produits Agricoles <span class="text-amber-300">&</span> <br> Bio
+                Des Produits Agricoles <span class="text-green-700">&</span> <br> Bios
               </h1>
               
               <a
                 href="#"
-                class="bg-green-800 hover:bg-transparent text-white font-semibold p-4 border-2 border-transparent hover:border-green-800 rounded inline-block mt-5 cursor-pointer"
+                class="bg-green-800 hover:bg-green-900 text-white font-semibold p-4 rounded inline-block mt-5 cursor-pointer"
                 data-aos="fade-up"
                 data-aos-delay="50"
                 data-aos-duration="1200"
@@ -70,7 +70,7 @@
       </div>
     -->
     </div>
-    <section class="pb-20 bg-gradient-to-b from-amber-300 -mt-24">
+    <section class="pb-20 bg-white -mt-24">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
           <div class="lg:pt-12 pt-12 w-full md:w-6/12 px-4 text-center">
@@ -141,38 +141,25 @@
           </div>
           
         </div>
-        <div class="flex flex-wrap items-center mt-32">
+
+
+
+        <div class="flex flex-wrap items-center mt-20">
           <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
-            <!--<div
-              class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
-            >
-              <i class="fas fa-user-friends text-xl"></i>
-            </div>-->
-            <h3 class="text-3xl mb-2 font-semibold leading-normal">
-              Working with us is a pleasure
-            </h3>
-            <p
-              class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
-            >
-              Don't let your uses guess by attaching tooltips and popoves to
-              any element. Just make sure you enable them first via
-              JavaScript.
+            <div class="text-gray-800 inline-flex w-full mb-6">
+              <h6 class="text-lg mb-2 font-semibold uppercase">L'usine Green Technology</h6>
+            </div>
+
+            <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
+              Créée en 2007, GREEN TECHNOLOGY est une société agro-industrielle spécialisée dans l’élaboration et la commercialisation de supports de culture issus du mésocarpe de la noix de coco.
+              L’exploitation de cette ressource naturelle, renouvelable, biodégradable, respectueuse de l’environnement, s’inscrit dans le cadre d’une politique de Développement Durable.
+              GREEN TECHNOLOGY a mis au point une technique de production et propose une large gamme de produits parfaitement adaptés aux cultures hors sol.
             </p>
-            <p
-              class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700"
-            >
-              The kit comes with three pre-built pages to help you get started
-              faster. You can change the text and images and you're good to
-              go. Just make sure you enable them first via JavaScript.
-            </p>
-            <a
-              href="#"
-              class="font-bold text-gray-800 mt-8"
-            >
-              Check Tailwind Starter Kit!
+            <a href="#" class="font-bold text-gray-800 mt-8">
+              En savoir plus sur l'usine..
             </a>
           </div>
-          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+          <div class="w-full md:w-6/12 px-4 mr-auto ml-auto">
             <div
               class="relative flex flex-col min-w-0 break-words bg-green-800 w-full mb-6 shadow-lg rounded-lg"
             >
@@ -194,13 +181,11 @@
                     class="text-green-800 fill-current"
                   ></polygon>
                 </svg>
-                <h4 class="text-xl font-bold text-white">
-                  Supports de cultures
+                <h4 class="text-xl font-bold text-white capitalize">
+                  Les Supports De Cultures GT
                 </h4>
                 <p class="text-md font-light mt-2 text-white">
-                  The Arctic Ocean freezes every winter and much of the
-                  sea-ice then thaws every summer, and that process will
-                  continue whatever happens.
+                  Utilisés dans la technique de culture en pots
                 </p>
               </blockquote>
             </div>
@@ -208,7 +193,90 @@
         </div>
       </div>
     </section>
-    <section class="relative py-20">
+
+
+    <section class="pt-20 pb-48 bg-emerald-800">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center text-center mb-24">
+          <div class="w-full lg:w-6/12 px-4">
+            <h6 class="text-lg mb-2 font-semibold uppercase text-slate-100">Nos principaux produits</h6>
+            <p class="font-light text-lg leading-relaxed m-4 text-slate-300">
+              GREEN TECHNOLOGY est un producteur professionnel d’intrants utilisés dans l'horticulture
+              et l'agriculture sous abris.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap">
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <img
+                alt="..."
+                src="./assets/img/team-1-800x800.jpg"
+                class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px;"
+              />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">Ryan Tompson</h5>
+                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  Web Developer
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <img
+                alt="..."
+                src="./assets/img/team-2-800x800.jpg"
+                class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px;"
+              />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">Romina Hadid</h5>
+                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  Marketing Specialist
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <img
+                alt="..."
+                src="./assets/img/team-3-800x800.jpg"
+                class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px;"
+              />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">Alexa Smith</h5>
+                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  UI/UX Designer
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <img
+                alt="..."
+                src="./assets/img/team-4-470x470.png"
+                class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px;"
+              />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">Jenna Kardi</h5>
+                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  Founder and CEO
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="relative py-20 bg-green-600">
       <div
         class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style="height: 80px;"
@@ -223,7 +291,7 @@
           y="0"
         >
           <polygon
-            class="text-white fill-current"
+            class="text-green fill-current"
             points="2560 0 2560 100 0 100"
           ></polygon>
         </svg>
@@ -300,6 +368,7 @@
         </div>
       </div>
     </section>
+    
     <section class="pt-20 pb-48">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-center text-center mb-24">
@@ -380,6 +449,7 @@
         </div>
       </div>
     </section>
+
     <section class="pb-20 relative block bg-gray-900">
       <div
         class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
