@@ -19,22 +19,22 @@
         <div class="items-center flex flex-wrap">
           <div class="w-full lg:w-8/12">
             <div>
-                <p class="mt-4 text-lg font-medium text-white text-base uppercase underline underline-offset-8">
+                <p class="mt-4 text-lg tracking-widest font-extrabold font-roboto text-white text-base uppercase underline underline-offset-8">
                     Nous fabriquons
                 </p>
-              <h1 class="text-white font-semibold text-7xl capitalize mt-5 mb-8"
+              <h1 class="text-white text-6xl lg:text-9xl font-semibold font-barlow uppercase mt-5 mb-8"
                   data-aos="fade-down"
                   data-aos-delay="50"
                   data-aos-duration="1200"
                   data-aos-mirror="true"
                   data-aos-once="false"
               >
-                Des Produits Agricoles <span class="text-green-700">&</span> <br> Bios
+                Des Produits Bios
               </h1>
-              
+              <h3 class="text-white text-4xl font-medium font-barlow">pour l'<span class="text-green-600">a</span>griculture & le <span class="text-green-600">j</span>ardinage</h3>
               <a
                 href="#"
-                class="bg-green-800 hover:bg-green-900 text-white font-semibold p-4 rounded inline-block mt-5 cursor-pointer"
+                class="bg-green-800 hover:bg-green-900 text-white text-base font-bold font-roboto uppercase p-4 rounded inline-block mt-5 cursor-pointer"
                 data-aos="fade-up"
                 data-aos-delay="50"
                 data-aos-duration="1200"
@@ -83,7 +83,7 @@
                 >
                   <i class="fas fa-splotch"></i>
                 </div>
-                <h4 class="text-2xl font-bold capitalize">localement</h4>
+                <h4 class="text-2xl font-bold uppercase">localement</h4>
                 <p class="mt-2 mb-4 text-gray-600 text-xl">
                   Green Technology travail main à main avec les acteurs du secteur agricole.
                 </p>
@@ -126,7 +126,7 @@
                 >
                   <i class="fas fa-fingerprint"></i>
                 </div>
-                <h4 class="text-2xl font-bold capitalize">à l'étranger</h4>
+                <h4 class="text-2xl font-bold uppercase">à l'étranger</h4>
                 <p class="mt-2 mb-4 text-gray-600 text-xl">
                   Nos produits sont principalement exportés vers la France et la Hollande.
                 </p>

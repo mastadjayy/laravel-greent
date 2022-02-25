@@ -5,7 +5,12 @@ module.exports = {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        barlow: "'Barlow', sans-serif" ,
+        roboto:"'Roboto', serif"
+      },
+    },
   },
   plugins: [],
 }
