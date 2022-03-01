@@ -15,7 +15,11 @@ use App\Http\Controllers\Default\DefaultController;
 
 Route::get('/', [DefaultController::class, 'index'])->name('home');
 
-Route::get('/about', [DefaultController::class, 'about'])->name('about');
+Route::get('/a-propos', [DefaultController::class, 'about'])->name('about');
+
+Route::get('/nos-produits', [DefaultController::class, 'product'])->name('products');
+
+Route::get('/gallerie', [DefaultController::class, 'gallerie'])->name('gallerie');
 
 Route::get('/contact', [DefaultController::class, 'contact'])->name('contact');
 

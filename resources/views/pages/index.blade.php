@@ -33,7 +33,7 @@
               </h1>
               <h3 class="text-white text-4xl font-medium font-barlow">pour l'<span class="text-green-600">a</span>griculture & le <span class="text-green-600">j</span>ardinage</h3>
               <a
-                href="#"
+                href="{{ route('about') }}"
                 class="bg-green-800 hover:bg-green-900 text-white text-base font-bold font-roboto uppercase p-4 rounded inline-block mt-5 cursor-pointer"
                 data-aos="fade-up"
                 data-aos-delay="50"
@@ -63,7 +63,7 @@
           y="0"
         >
           <polygon
-            class="text-amber-300 fill-current"
+            class="text-white fill-current"
             points="2560 0 2560 100 0 100"
           ></polygon>
         </svg>
@@ -73,66 +73,50 @@
     <section class="pb-20 bg-white -mt-24">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
-          <div class="lg:pt-12 pt-12 w-full md:w-6/12 px-4 text-center">
+          <div class="lg:pt-12 pt-12 w-full md:w-4/12 px-4 text-center">
             <div
               class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
             >
               <div class="px-4 py-5 flex-auto">
-                <div
-                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
-                >
-                  <i class="fas fa-splotch"></i>
-                </div>
-                <h4 class="text-2xl font-bold uppercase">localement</h4>
-                <p class="mt-2 mb-4 text-gray-600 text-xl">
+                <h4 class="text-2xl font-bold uppercase font-barlow">localement</h4>
+                <p class="mt-2 mb-4 text-gray-600 text-base font-bold font-roboto">
                   Green Technology travail main à main avec les acteurs du secteur agricole.
                 </p>
                 <a
-                    href="#"
-                    class="px-6 bg-amber-400 hover:bg-transparent text-white hover:text-amber-400 font-semibold border-2 border-transparent hover:border-amber-400 rounded inline-block cursor-pointer"
+                    href="{{ route('about') }}"
+                    class="px-6 bg-green-900 text-white font-semibold rounded inline-block cursor-pointer"
                 >
                     <i class="fas fa-long-arrow-alt-right text-lg leading-lg"></i>
                 </a>
               </div>
             </div>
           </div>
-          <!--
+          
           <div class="w-full md:w-4/12 px-4 text-center">
             <div
               class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
             >
               <div class="px-4 py-5 flex-auto">
-                <div
-                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
-                >
-                  <i class="fas fa-retweet"></i>
-                </div>
-                <h6 class="text-xl font-semibold">Free Revisions</h6>
-                <p class="mt-2 mb-4 text-gray-600">
-                  Keep you user engaged by providing meaningful information.
-                  Remember that by this time, the user is curious.
+                <h4 class="text-2xl font-bold uppercase font-barlow">Green Technology</h4>
+                <p class="mt-2 mb-4 text-gray-600 text-base font-bold font-roboto">
+                  est le choix des professionnels de l'agriculture et du paysagisme
                 </p>
               </div>
             </div>
           </div>
-          -->
-          <div class="pt-12 w-full md:w-6/12 px-4 text-center">
+          
+          <div class="pt-12 w-full md:w-4/12 px-4 text-center">
             <div
               class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
             >
               <div class="px-4 py-5 flex-auto">
-                <div
-                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
-                >
-                  <i class="fas fa-fingerprint"></i>
-                </div>
-                <h4 class="text-2xl font-bold uppercase">à l'étranger</h4>
-                <p class="mt-2 mb-4 text-gray-600 text-xl">
-                  Nos produits sont principalement exportés vers la France et la Hollande.
+                <h4 class="text-2xl font-bold uppercase font-barlow">à l'étranger</h4>
+                <p class="mt-2 mb-4 text-gray-600 text-base font-bold font-roboto">
+                  Nos produits sont principalement exportés vers la France et la Hollande où ils sont utilisés principalement dans l’horticulture.
                 </p>
                 <a
-                    href="#"
-                    class="px-6 bg-amber-400 hover:bg-transparent text-white hover:text-amber-400 font-semibold border-2 border-transparent hover:border-amber-400 rounded inline-block cursor-pointer"
+                    href="{{ route('about') }}"
+                    class="px-6 bg-green-900 text-white font-semibold rounded inline-block cursor-pointer"
                 >
                     <i class="fas fa-long-arrow-alt-right text-lg leading-lg"></i>
                 </a>
@@ -147,7 +131,7 @@
         <div class="flex flex-wrap items-center mt-20">
           <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
             <div class="text-gray-800 inline-flex w-full mb-6">
-              <h6 class="text-lg mb-2 font-semibold uppercase">L'usine Green Technology</h6>
+              <h6 class="text-xl mb-2 font-bold uppercase font-barlow">L'usine Green Technology</h6>
             </div>
 
             <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
@@ -155,7 +139,7 @@
               L’exploitation de cette ressource naturelle, renouvelable, biodégradable, respectueuse de l’environnement, s’inscrit dans le cadre d’une politique de Développement Durable.
               GREEN TECHNOLOGY a mis au point une technique de production et propose une large gamme de produits parfaitement adaptés aux cultures hors sol.
             </p>
-            <a href="#" class="font-bold text-gray-800 mt-8">
+            <a href="{{ route('about') }}" class="font-bold text-green-800 font-roboto mt-8 underline">
               En savoir plus sur l'usine..
             </a>
           </div>
@@ -230,74 +214,6 @@
             </div>
           </div>
         </section>
-        <!--
-        <div class="flex flex-wrap">
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-            <div class="px-6">
-              <img
-                alt="..."
-                src="https://shtheme.org/demosd/agroly/wp-content/uploads/2020/12/gallery-3.jpg"
-                class="shadow-lg rounded-full max-w-full mx-auto"
-                style="max-width: 120px;"
-              />
-              <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Ryan Tompson</h5>
-                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  Web Developer
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-            <div class="px-6">
-              <img
-                alt="..."
-                src="https://shtheme.org/demosd/agroly/wp-content/uploads/2020/12/gallery-3.jpg"
-                class="shadow-lg rounded-full max-w-full mx-auto"
-                style="max-width: 120px;"
-              />
-              <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Romina Hadid</h5>
-                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  Marketing Specialist
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-            <div class="px-6">
-              <img
-                alt="..."
-                src="https://shtheme.org/demosd/agroly/wp-content/uploads/2020/12/gallery-3.jpg"
-                class="shadow-lg rounded-full max-w-full mx-auto"
-                style="max-width: 120px;"
-              />
-              <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Alexa Smith</h5>
-                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  UI/UX Designer
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-            <div class="px-6">
-              <img
-                alt="..."
-                src="https://shtheme.org/demosd/agroly/wp-content/uploads/2020/12/gallery-3.jpg"
-                class="shadow-lg rounded-full max-w-full mx-auto"
-                style="max-width: 120px;"
-              />
-              <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Jenna Kardi</h5>
-                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  Founder and CEO
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        -->
       </div>
     </section>
 

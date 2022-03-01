@@ -17,6 +17,16 @@ class DefaultController extends Controller
         return view('pages.about');
     }
 
+    public function product()
+    {
+        return view('pages.product');
+    }
+
+    public function gallerie()
+    {
+        return view('pages.gallerie');
+    }
+
     public function contact()
     {
         return view('pages.contact');

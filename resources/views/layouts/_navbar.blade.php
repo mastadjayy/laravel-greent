@@ -8,7 +8,7 @@ class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px
     class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
   >
     <a
-      class="text-lg font-bold text-emerald-800 leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
+      class="text-lg font-bold font-barlow text-emerald-800 leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
       href="{{ route('home') }}"
       >Green Technology</a>
      <button
@@ -35,19 +35,26 @@ class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px
       <li class="flex items-center">
         <a
           class="text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-          href="#"
+          href="{{ route('products') }}"
         >
           nos produits
         </a>
       </li>
       <li class="flex items-center">
-        <button
-          class="bg-green-900 text-white active:bg-green-900 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
-          type="button"
-          style="transition: all 0.15s ease 0s;"
+        <a
+          class="text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+          href="{{ route('gallerie') }}"
         >
-          contact
-        </button>
+          gallerie
+        </a>
+      </li>
+      <li class="flex items-center">
+        <a
+          class="bg-green-900 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold rounded shadow hover:shadow-md"
+          href="{{ route('contact') }}"
+        >
+        contact
+      </a>
       </li>
     </ul>
   </div>

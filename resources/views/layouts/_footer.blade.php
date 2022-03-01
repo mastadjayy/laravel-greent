@@ -1,6 +1,5 @@
 <footer
-class="relative bg-green-500 bg-cover pt-8 pb-6 text-white"
-style='background-image: url("http://seodo.themezinho.net/wp-content/themes/seodo/images/pattern-bg.png");'
+class="relative bg-emerald-800 bg-cover pt-8 pb-6 text-white"
 >
 <div
   class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
@@ -16,89 +15,53 @@ style='background-image: url("http://seodo.themezinho.net/wp-content/themes/seod
     y="0"
   >
     <polygon
-      class="text-green-500 fill-current"
+      class="text-emerald-800 bg-green-900 fill-current"
       points="2560 0 2560 100 0 100"
-      style='background-image: url("http://seodo.themezinho.net/wp-content/themes/seodo/images/pattern-bg.png");'
     ></polygon>
   </svg>
 </div>
 <div class="container mx-auto px-4">
   <div class="flex flex-wrap">
     <div class="w-full lg:w-6/12 px-4">
-      <h4 class="text-3xl font-semibold">Green Technology</h4>
-      <!--
-      <h5 class="text-lg mt-0 mb-2 text-gray-700">
-        Find us on any of these platforms, we respond 1-2 business days.
-      </h5>
-      -->
-
+      <h4 class="text-3xl font-semibold font-barlow underline decoration-wavy decoration-yellow-500 underline-offset-8 uppercase">
+        Green Technology
+      </h4>
     </div>
     <div class="w-full lg:w-6/12 px-4">
       <div class="flex flex-wrap items-top mb-6">
         <div class="w-full lg:w-4/12 px-4 ml-auto">
           <span
-            class="block uppercase text-amber-100 text-sm font-semibold mb-2"
+            class="block uppercase underline text-yellow-500 text-lg font-bold font-roboto mb-2"
             >liens utiles</span
           >
           <ul class="list-unstyled">
             <li>
               <a
-                class="text-white hover:text-gray-900 font-semibold block pb-2 text-sm uppercase"
-                href="#"
+                class="text-white hover:text-yellow-500 font-semibold block pb-2 text-sm uppercase"
+                href="{{ route('about') }}"
                 >à propos</a
               >
             </li>
             <li>
               <a
-                class="text-white hover:text-gray-900 font-semibold block pb-2 text-sm uppercase"
-                href="#"
+                class="text-white hover:text-yellow-500 font-semibold block pb-2 text-sm uppercase"
+                href="{{ route('products') }}"
                 >nos produits</a
               >
             </li>
             <li>
               <a
-                class="text-white hover:text-gray-900 font-semibold block pb-2 text-sm uppercase"
-                href="#"
+                class="text-white hover:text-yellow-500 font-semibold block pb-2 text-sm uppercase"
+                href="{{ route('contact') }}"
                 >contact</a
               >
             </li>
           </ul>
         </div>
-        <!--
-        <div class="w-full lg:w-4/12 px-4">
-          <span
-            class="block uppercase text-amber-100 text-sm font-semibold mb-2"
-            >Other Resources</span
-          >
-          <ul class="list-unstyled">
-            <li>
-              <a
-                class="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                href="https://creative-tim.com/terms"
-                >Terms &amp; Conditions</a
-              >
-            </li>
-            <li>
-              <a
-                class="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                href="https://creative-tim.com/privacy"
-                >Privacy Policy</a
-              >
-            </li>
-            <li>
-              <a
-                class="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                href="https://creative-tim.com/contact-us"
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </div>
-        -->
       </div>
     </div>
   </div>
-  <hr class="my-6 border-white" />
+  <hr class="my-6 border-yellow-500" />
   <div
     class="flex flex-wrap items-center md:justify-between justify-center"
   >
@@ -109,7 +72,7 @@ style='background-image: url("http://seodo.themezinho.net/wp-content/themes/seod
           href="#"
           class="text-white"
         >
-          <span class="text-amber-200 hover:text-amber-400">ORDEM</span>
+          <span class="text-yellow-500 hover:text-amber-400">ORDEM</span>
         </a>.
       </div>
     </div>
